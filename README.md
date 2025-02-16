@@ -10,5 +10,5 @@ Go to the three dots in the corner of the browser, then select "Extensions," and
 Enable "Developer Mode," then choose "Load Unpacked Extension."
 Select the folder you extracted.
 
-Buy me a coffe
+Buy me a coffee
 https://buymeacoffee.com/hxh3mk
