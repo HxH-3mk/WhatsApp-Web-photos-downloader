@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Key Press Simulator",
+  "version": "1.0",
+  "description": "Simulates key presses at a customizable interval.",
+"permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
