@@ -38,16 +38,28 @@
       font-size: 14px;
       color: #333;
     }
+    /* Style for the Buy Me a Coffee button */
+    .buy-me-a-coffee {
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
-  <h3>Key Press Simulator</h3>
+  <h3>WhatsAppWeb photos downloader</h3>
   <button id="startBtn">Start</button>
   <button id="stopBtn">Stop</button>
   <div>
     <label for="intervalInput">Interval (seconds):</label>
     <input type="number" id="intervalInput" value="3" min="1" required>
   </div>
+
+  <!-- Add the Buy Me a Coffee button here -->
+  <div class="buy-me-a-coffee">
+    <a href="https://www.buymeacoffee.com/HxH3mk" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=HxH3mk&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me a Coffee" />
+    </a>
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>
